@@ -1,0 +1,29 @@
+section_romanticism_artworks
+=> nrel_main_idtf:
+	[Предметная область произведений в стиле романтизма]
+		(* <- lang_ru;; *);
+
+
+<- not_enough_formed_structure;
+<= nrel_section_decomposition:
+	{
+
+	};;
+
+section_romanticism_artworks =  [*^"file://section_romanticism_artworks.scsi"*];;
+
+section_romanticism_artworks
+-> rrel_key_sc_element: 
+	//здесь через точку с запятой прописываем всех формализованных дядь
+;;
+
+
+
+	
+
+
+
+
+
+
+

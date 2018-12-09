@@ -1,0 +1,29 @@
+section_realism_artworks
+=> nrel_main_idtf:
+	[Предметная область произведений в стиле реализма]
+		(* <- lang_ru;; *);
+
+
+<- not_enough_formed_structure;
+<= nrel_section_decomposition:
+	{
+
+	};;
+
+section_realism_artworks =  [*^"file://section_realism_artworks.scsi"*];;
+
+section_realism_artworks
+-> rrel_key_sc_element: 
+	//здесь через точку с запятой прописываем всех формализованных дядь
+;;
+
+
+
+	
+
+
+
+
+
+
+

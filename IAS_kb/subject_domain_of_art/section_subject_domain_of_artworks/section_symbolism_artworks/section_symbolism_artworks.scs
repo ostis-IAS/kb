@@ -1,0 +1,29 @@
+section_symbolism_artworks
+=> nrel_main_idtf:
+	[Предметная область произведений в стиле символизма]
+		(* <- lang_ru;; *);
+
+
+<- not_enough_formed_structure;
+<= nrel_section_decomposition:
+	{
+
+	};;
+
+section_symbolism_artworks =  [*^"file://section_symbolism_artworks.scsi"*];;
+
+section_symbolism_artworks
+-> rrel_key_sc_element: 
+	//здесь через точку с запятой прописываем всех формализованных дядь
+;;
+
+
+
+	
+
+
+
+
+
+
+

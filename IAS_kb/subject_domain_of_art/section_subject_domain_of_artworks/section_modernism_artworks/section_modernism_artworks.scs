@@ -1,0 +1,29 @@
+section_modernism_artworks
+=> nrel_main_idtf:
+	[Предметная область произведений в стиле модернизма]
+		(* <- lang_ru;; *);
+
+
+<- not_enough_formed_structure;
+<= nrel_section_decomposition:
+	{
+
+	};;
+
+section_modernism_artworks =  [*^"file://section_modernism_artworks.scsi"*];;
+
+section_modernism_artworks
+-> rrel_key_sc_element: 
+	//здесь через точку с запятой прописываем всех формализованных дядь
+;;
+
+
+
+	
+
+
+
+
+
+
+

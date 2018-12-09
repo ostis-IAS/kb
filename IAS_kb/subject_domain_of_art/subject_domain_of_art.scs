@@ -1,0 +1,36 @@
+subject_domain_of_art
+=> nrel_main_idtf:
+	[Предметная область изобразительного искусства]
+	(* <- lang_ru;; *);
+
+<- not_enough_formed_structure;
+
+<= nrel_section_decomposition:
+	{
+	section_subject_domain_of_artists
+		(*
+			=> nrel_section_base_order: 
+					section_subject_domain_of_artworks;;
+		*);
+		section_subject_domain_of_artworks
+		(*
+			=> nrel_section_base_order: 
+					section_subject_domain_of_artlocations;;
+		*);
+                section_subject_domain_of_artlocations
+                (*
+			=> nrel_section_base_order: 
+					section_subject_domain_of_artgenres;;
+		*);
+                section_subject_domain_of_artgenres
+                (*
+			=> nrel_section_base_order: 
+					section_subject_domain_of_artstyles;;
+		*);
+                section_subject_domain_of_artstyles
+                (*
+			=> nrel_section_base_order: 
+					section_subject_domain_of_artmaterials;;
+		*);
+                section_subject_domain_of_artmaterials
+	};;

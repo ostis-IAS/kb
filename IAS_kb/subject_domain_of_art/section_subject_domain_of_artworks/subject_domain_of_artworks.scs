@@ -1,0 +1,38 @@
+subject_domain_of_artworks
+=> nrel_main_idtf:
+	[Предметная область произведений искусства]
+		(* <- lang_ru;; *);
+
+
+<- not_enough_formed_structure;
+<= nrel_section_decomposition:
+	{
+section_cubism_artworks
+section_expressionism_artworks
+section_impressionism_artworks
+section_modernism_artworks
+section_neoclassicism_artworks
+section_popart_artworks
+section_realism_artworks
+section_romanticism_artworks
+section_surrealism_artworks
+section_symbolism_artworks
+	};;
+
+subject_domain_of_artists =  [*^"file://subject_domain_of_artworks.scsi"*];;
+
+subject_domain_of_artworks
+-> rrel_key_sc_element: 
+	//здесь через точку с запятой прописываем всех формализованных дядь
+;;
+
+
+
+	
+
+
+
+
+
+
+

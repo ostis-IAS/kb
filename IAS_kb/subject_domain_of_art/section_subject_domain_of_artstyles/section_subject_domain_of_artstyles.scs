@@ -1,0 +1,29 @@
+section_subject_domain_of_artstyles
+=> nrel_main_idtf:
+	[Предметная область стилей изобразительного искусства]
+		(* <- lang_ru;; *);
+
+
+<- not_enough_formed_structure;
+<= nrel_section_decomposition:
+	{
+
+	};;
+
+section_subject_domain_of_artstyles =  [*^"file://section_subject_domain_of_artstyles.scsi"*];;
+
+section_subject_domain_of_artstyles
+-> rrel_key_sc_element: 
+	//здесь через точку с запятой прописываем всех формализованных дядь
+;;
+
+
+
+	
+
+
+
+
+
+
+
