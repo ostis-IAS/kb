@@ -3,19 +3,11 @@ section_symbolism_artworks
 	[Предметная область произведений в стиле символизма]
 		(* <- lang_ru;; *);
 
-
-<- not_enough_formed_structure;
-<= nrel_section_decomposition:
-	{
-
-	};;
+<- not_enough_formed_structure;;
 
 section_symbolism_artworks =  [*^"file://section_symbolism_artworks.scsi"*];;
 
-section_symbolism_artworks
--> rrel_key_sc_element: 
-	//здесь через точку с запятой прописываем всех формализованных дядь
-;;
+//section_symbolism_artworks -> rrel_key_sc_element: ;;
 
 
 

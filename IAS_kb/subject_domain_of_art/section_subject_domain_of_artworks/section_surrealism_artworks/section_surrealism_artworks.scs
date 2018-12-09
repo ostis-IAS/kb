@@ -4,18 +4,11 @@ section_surrealism_artworks
 		(* <- lang_ru;; *);
 
 
-<- not_enough_formed_structure;
-<= nrel_section_decomposition:
-	{
-
-	};;
+<- not_enough_formed_structure;;
 
 section_surrealism_artworks =  [*^"file://section_surrealism_artworks.scsi"*];;
 
-section_surrealism_artworks
--> rrel_key_sc_element: 
-	//здесь через точку с запятой прописываем всех формализованных дядь
-;;
+//section_surrealism_artworks -> rrel_key_sc_element: ;;
 
 
 

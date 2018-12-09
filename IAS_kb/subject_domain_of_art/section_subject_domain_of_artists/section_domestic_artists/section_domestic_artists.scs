@@ -1,9 +1,8 @@
 section_domestic_artists
 => nrel_main_idtf:
 	[Раздел. Отечественные художники]
-		(* <- lang_ru;; *);
-->rrel_key_sc_element:
-	//через точку с запятой дядь
-;;
+		(* <- lang_ru;; *);;
+		//убрать одну точку с запятой при добавлении элементов
+//->rrel_key_sc_element:;; 
 
 section_domestic_artists = [*^"file://section_domestic_artists.scsi"*];;

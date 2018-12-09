@@ -15,14 +15,6 @@ subject_domain_of_artists
 		section_foreign_artists
 	};;
 
-subject_domain_of_artists =  [*^"file://section_artists.scsi"*];;
-
-subject_domain_of_artists
--> rrel_key_sc_element: 
-	//здесь через точку с запятой прописываем всех формализованных дядь
-;;
-
-
 
 	
 

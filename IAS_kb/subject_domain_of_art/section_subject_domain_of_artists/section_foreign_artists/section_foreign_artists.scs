@@ -1,8 +1,8 @@
 section_foreign_artists
 => nrel_main_idtf:
 	[Раздел. Зарубежные художники]
-		(* <- lang_ru;; *);
-->rrel_key_sc_element:
-	;;
+		(* <- lang_ru;; *);;
+		//убрать одну точку с запятой при добавлении элементов
+//->rrel_key_sc_element:;; 
 
 section_foreign_artists = [*^"file://section_foreign_artists.scsi"*];;

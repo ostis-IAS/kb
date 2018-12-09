@@ -4,17 +4,11 @@ section_subject_domain_of_artlocations
 		(* <- lang_ru;; *);
 
 
-<- not_enough_formed_structure;
-<= nrel_section_decomposition:
-	{
-	};;
+<- not_enough_formed_structure;;
 
 section_subject_domain_of_artlocations =  [*^"file://section_subject_domain_of_artlocations.scsi"*];;
 
-section_subject_domain_of_artlocations
--> rrel_key_sc_element: 
-	//здесь через точку с запятой прописываем всех формализованных дядь
-;;
+//section_subject_domain_of_artlocations -> rrel_key_sc_element: ;;
 
 
 

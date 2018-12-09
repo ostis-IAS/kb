@@ -3,19 +3,11 @@ section_realism_artworks
 	[Предметная область произведений в стиле реализма]
 		(* <- lang_ru;; *);
 
-
-<- not_enough_formed_structure;
-<= nrel_section_decomposition:
-	{
-
-	};;
+<- not_enough_formed_structure;;
 
 section_realism_artworks =  [*^"file://section_realism_artworks.scsi"*];;
 
-section_realism_artworks
--> rrel_key_sc_element: 
-	//здесь через точку с запятой прописываем всех формализованных дядь
-;;
+//section_realism_artworks -> rrel_key_sc_element: ;;
 
 
 

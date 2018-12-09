@@ -1,0 +1,9 @@
+ui_menu_na_artworks
+<- ui_user_command_class_noatom;
+=> nrel_main_idtf:
+	[Команды для поиска произведений изобразительного искусства]
+		(* <- lang_ru;; *);
+	[Artworks search commands]
+		(* <- lang_en;; *);;
+
+//<= nrel_ui_commands_decomposition:{};;

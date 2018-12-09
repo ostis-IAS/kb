@@ -8,5 +8,5 @@ ui_main_menu
 	{
 		ui_menu_na_view_kb_extended;
 		ui_menu_na_keynodes;
-		ui_menu_na_IAS
+		ui_menu_na_artworks
 	};;

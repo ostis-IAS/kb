@@ -3,19 +3,11 @@ section_neoclassicism_artworks
 	[Предметная область произведений в стиле неоклассицизма]
 		(* <- lang_ru;; *);
 
-
-<- not_enough_formed_structure;
-<= nrel_section_decomposition:
-	{
-
-	};;
+<- not_enough_formed_structure;;
 
 section_neoclassicism_artworks =  [*^"file://section_neoclassicism_artworks.scsi"*];;
 
-section_neoclassicism_artworks
--> rrel_key_sc_element: 
-	//здесь через точку с запятой прописываем всех формализованных дядь
-;;
+//section_neoclassicism_artworks -> rrel_key_sc_element: ;;
 
 
 

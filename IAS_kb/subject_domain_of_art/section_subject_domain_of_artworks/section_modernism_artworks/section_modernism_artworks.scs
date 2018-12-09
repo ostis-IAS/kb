@@ -3,19 +3,11 @@ section_modernism_artworks
 	[Предметная область произведений в стиле модернизма]
 		(* <- lang_ru;; *);
 
-
-<- not_enough_formed_structure;
-<= nrel_section_decomposition:
-	{
-
-	};;
+<- not_enough_formed_structure;;
 
 section_modernism_artworks =  [*^"file://section_modernism_artworks.scsi"*];;
 
-section_modernism_artworks
--> rrel_key_sc_element: 
-	//здесь через точку с запятой прописываем всех формализованных дядь
-;;
+//section_modernism_artworks -> rrel_key_sc_element: ;;
 
 
 
