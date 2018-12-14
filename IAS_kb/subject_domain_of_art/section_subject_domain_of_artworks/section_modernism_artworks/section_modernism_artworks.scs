@@ -7,7 +7,9 @@ section_modernism_artworks
 
 section_modernism_artworks =  [*^"file://section_modernism_artworks.scsi"*];;
 
-//section_modernism_artworks -> rrel_key_sc_element: ;;
+section_modernism_artworks -> rrel_key_sc_element:
+picture_the_starry_night
+;;
 
 
 

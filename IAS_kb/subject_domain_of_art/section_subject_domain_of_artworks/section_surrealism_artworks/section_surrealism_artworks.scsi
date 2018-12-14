@@ -1,2 +1,90 @@
-//сюда кидаем формализацию всех понятий
+/*Рене Магритт - "Влюблённые"*/
+/* Author: Kseniya Perepechina, group 621701 */
+/* Date: 2018/12/14                          */
+//системный идентификатор
+sc_node_not_relation -> picture_the_lovers;;
+//основные идентификаторы
+picture_the_lovers => nrel_main_idtf:
+["Влюблённые"](*<-lang_ru;;*);
+	["The lovers"](*<-lang_en;;*);
+//ТМ связи
+<- concept_picture;
+//атрибуты
+=> nrel_style: style_surrialism;
+=> nrel_author: artist_Rene_Magritte;
+=> nrel_date_of_paining: ... 
+(*-> rrel_number_of_year: year_1928;;
+*);;
+=> nrel_location: museum_of_modern_art;
+=> nrel_material: material_oil_paints;
+//трактовка изображенного
+<- rrel_key_sc_element: ...
+(*
+<-image_interpretation;;
+=>nrel_main_idtf: [Утв.("Влюблённые")](* <-lang_ru;; *);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example:
+[Существует в двух вариантах. На одном мужчина и женщина, чьи головы укутаны белой тканью, целуются, а на другом — «смотрят» на зрителя. Картина удивляет и завораживает. Двумя фигурами без лиц Магритт передал идею о слепоте любви. О слепоте во всех смыслах: влюбленные никого не видят, не видим их истинных лиц и мы, а кроме того, влюбленные — загадка даже друг для друга.](* <-lang_ru;; *);;
+*);;
+*);;
+//иллюстрация
+llustration -> ...
+	(*
+	-> rrel_key_sc_element: picture_the_lovers;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://the_lovers";;
+		*);;
+	*);;
+
+
+
+/*Сальвадор Дали - "Течение времени"*/
+/* Author: Kseniya Perepechina, group 621701 */
+/* Date: 2018/12/14                          */
+//системный идентификатор
+sc_node_not_relation -> picture_the_persistence_of_memory;;
+//основные идентификаторы
+picture_the_persistence_of_memory => nrel_main_idtf:
+["Постоянство памяти"](*<-lang_ru;;*);
+["Течение времени"](*<-lang_ru;;*);
+["Мягкие часы"](*<-lang_ru;;*);
+["Твердость памяти"](*<-lang_ru;;*);
+["Стойкость памяти"](*<-lang_ru;;*);
+["The Persistence of Memory"](*<-lang_en;;*);
+//ТМ связи
+<- concept_picture;
+//атрибуты
+=> nrel_style: style_surrialism;
+=> nrel_genre: genre_paysage;
+=> nrel_author: artist_Salvador_Dali;
+=> nrel_date_of_paining: ... 
+(*-> rrel_number_of_year: year_1931;;
+*);;
+=> nrel_location: museum_of_modern_art;
+=> nrel_material: material_oil_paints;
+//трактовка изображенного
+<- rrel_key_sc_element: ...
+(*
+<-image_interpretation;;
+=>nrel_main_idtf: [Утв.("Постоянство памяти")](* <-lang_ru;; *);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example:
+[Размягченность висящих и стекающих часов — образ, выражающий уход от линейного понимания времени. Здесь присутствует и сам Дали в виде спящей головы, уже появлявшейся в «Траурной игре» и других картинах. Сообразно своему методу, художник объяснял происхождение сюжета размышлением о природе сыра камамбер; пейзаж с Порт Лигат был уже готов, так что написать картину было делом двух часов. Вернувшись из кино, куда она ходила в тот вечер, Гала совершенно правильно предсказала, что никто, раз увидев «Постоянство памяти», уже его не забудет. Написанию картины, по-видимому, могли способствовать ассоциации, возникавшие у Дали при виде плавленого сыра (на это указывает его высказывание)](* <-lang_ru;; *);;
+*);;
+*);;
+//иллюстрация
+llustration -> ...
+	(*
+	-> rrel_key_sc_element: picture_the_persistence_of_memory;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://the_persistence_of_memory.jpg";;
+		*);;
+	*);;
+
+
+
 

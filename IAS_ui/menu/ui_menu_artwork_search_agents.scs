@@ -1,0 +1,24 @@
+ui_menu_artwork_search_agents <- ui_user_command_class_noatom;
+=> nrel_main_idtf: [Поисковые агенты] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Search agents] (* <- lang_en;; *);
+<= nrel_ui_commands_decomposition:
+{
+	ui_menu_file_for_finding_artwork_by_artist_and_year;
+        
+};
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:	
+		...
+		(*
+		-> [Поисковые агенты - это sc-программы позволяющие производить поиск в базе знаний на предмет существующих знаний, которые удовлетворяют заданым критериям.] 			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> [Search agents - is a sc-programs that allowed to do search operations in knowledge base.] (* <- lang_en;; *);;
+		*);;
+	*);;
+

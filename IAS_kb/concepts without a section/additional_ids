@@ -1,0 +1,231 @@
+/* Author: Kseniya Perepechina, group 621701 */
+/* Date: 2018/12/14                          */
+/* Идентификаторы сущностей, не входящих в ПрО*/
+nrel_date_of_birth => nrel_main_idtf:
+[дата рождения](*<-lang_ru;;*);
+	[date of birth](*<-lang_en;;*);;
+
+nrel_date_of_painting => nrel_main_idtf:
+[дата написания](*<-lang_ru;;*);
+	[date of painting](*<-lang_en;;*);;
+
+rrel_number_of_year => nrel_main_idtf:
+[год](*<-lang_ru;;*);
+	[year](*<-lang_en;;*);;
+
+year_1898 => nrel_main_idtf:
+[1898](*<-lang_ru;;*);
+	[1898](*<-lang_en;;*);;
+
+year_1929 => nrel_main_idtf:
+[1929](*<-lang_ru;;*);
+	[1929](*<-lang_en;;*);;
+
+year_1931 => nrel_main_idtf:
+[1931](*<-lang_ru;;*);
+	[1931](*<-lang_en;;*);;
+
+year_1967 => nrel_main_idtf:
+[1967](*<-lang_ru;;*);
+	[1967](*<-lang_en;;*);;
+
+year_1853 => nrel_main_idtf:
+[1853](*<-lang_ru;;*);
+	[1853](*<-lang_en;;*);;
+
+year_1890 => nrel_main_idtf:
+[1890](*<-lang_ru;;*);
+	[1890](*<-lang_en;;*);;
+
+year_1904 => nrel_main_idtf:
+[1904](*<-lang_ru;;*);
+	[1904](*<-lang_en;;*);;
+
+year_1989 => nrel_main_idtf:
+[1989](*<-lang_ru;;*);
+	[1989](*<-lang_en;;*);;
+
+year_1989 => nrel_main_idtf:
+[1889](*<-lang_ru;;*);
+	[1889](*<-lang_en;;*);;
+
+year_1928 => nrel_main_idtf:
+[1928](*<-lang_ru;;*);
+	[1928](*<-lang_en;;*);;
+
+rrel_name_of_month => nrel_main_idtf:
+[месяц](*<-lang_ru;;*);
+	[month](*<-lang_en;;*);;
+
+month_November => nrel_main_idtf:
+[Ноябрь](*<-lang_ru;;*);
+	[November](*<-lang_en;;*);;
+
+month_August => nrel_main_idtf:
+[Август](*<-lang_ru;;*);
+	[August](*<-lang_en;;*);;
+
+month_March => nrel_main_idtf:
+[Март](*<-lang_ru;;*);
+	[March](*<-lang_en;;*);;
+
+month_May => nrel_main_idtf:
+[Май](*<-lang_ru;;*);
+	[May](*<-lang_en;;*);;
+
+month_January => nrel_main_idtf:
+[Январь](*<-lang_ru;;*);
+	[January](*<-lang_en;;*);;
+
+month_July => nrel_main_idtf:
+[Июль](*<-lang_ru;;*);
+	[July](*<-lang_en;;*);;
+
+rrel_number_of_day => nrel_main_idtf:
+[число](*<-lang_ru;;*);
+	[day](*<-lang_en;;*);;
+
+day_21 => nrel_main_idtf:
+[21](*<-lang_ru;;*);
+	[21](*<-lang_en;;*);;
+
+day_15 => nrel_main_idtf:
+[15](*<-lang_ru;;*);
+	[15](*<-lang_en;;*);;
+
+day_29 => nrel_main_idtf:
+[29](*<-lang_ru;;*);
+	[29](*<-lang_en;;*);;
+
+day_7 => nrel_main_idtf:
+[7](*<-lang_ru;;*);
+	[7](*<-lang_en;;*);;
+
+day_30 => nrel_main_idtf:
+[30](*<-lang_ru;;*);
+	[30](*<-lang_en;;*);;
+
+nrel_place_of_birth => nrel_main_idtf:
+[место рождения](*<-lang_ru;;*);
+	[place of birth](*<-lang_en;;*);;
+
+nrel_place_of_death => nrel_main_idtf:
+[место смерти](*<-lang_ru;;*);
+	[place of death](*<-lang_en;;*);;
+
+rrel_country_of_birth => nrel_main_idtf:
+[страна рождения](*<-lang_ru;;*);
+	[country of birth](*<-lang_en;;*);;
+
+rrel_country_of_death => nrel_main_idtf:
+[страна смерти](*<-lang_ru;;*);
+	[country of death](*<-lang_en;;*);;
+
+country_Belgium => nrel_main_idtf:
+[Бельгия](*<-lang_ru;;*);
+	[Belgium](*<-lang_en;;*);;
+
+country_Spain => nrel_main_idtf:
+[Испания](*<-lang_ru;;*);
+	[Spain](*<-lang_en;;*);;
+
+country_Netherlands => nrel_main_idtf:
+[Нидерланды](*<-lang_ru;;*);
+	[Netherlands](*<-lang_en;;*);;
+
+country_France => nrel_main_idtf:
+[Франция](*<-lang_ru;;*);
+	[France](*<-lang_en;;*);;
+
+country_USA => nrel_main_idtf:
+[США](*<-lang_ru;;*);
+	[USA](*<-lang_en;;*);;
+
+rrel_city_of_birth => nrel_main_idtf:
+[город рождения](*<-lang_ru;;*);
+	[city of birth](*<-lang_en;;*);;
+
+rrel_city_of_death => nrel_main_idtf:
+[город смерти](*<-lang_ru;;*);
+	[city of death](*<-lang_en;;*);;
+
+city_Lessin => nrel_main_idtf:
+[Лессин](*<-lang_ru;;*);
+	[Lessin](*<-lang_en;;*);;
+
+city_Brussels => nrel_main_idtf:
+[Брюссель](*<-lang_ru;;*);
+	[Brussels](*<-lang_en;;*);;
+
+city_Zundert => nrel_main_idtf:
+[Зундерт](*<-lang_ru;;*);
+	[Zundert](*<-lang_en;;*);;
+
+city_Figueras => nrel_main_idtf:
+[Фигурас](*<-lang_ru;;*);
+	[Figueras](*<-lang_en;;*);;
+
+nrel_style => nrel_main_idtf:
+[Рене Магритт](*<-lang_ru;;*);
+	[style](*<-lang_en;;*);;
+
+style_surrealism => nrel_main_idtf:
+[сюрриализм](*<-lang_ru;;*);
+	[surrealism](*<-lang_en;;*);;
+
+style_cubism => nrel_main_idtf:
+[кубизм](*<-lang_ru;;*);
+	[cubism](*<-lang_en;;*);;
+
+style_postimpressionism => nrel_main_idtf:
+[пост-импрессионизм](*<-lang_ru;;*);
+	[post-impressionism](*<-lang_en;;*);;
+
+style_modernism => nrel_main_idtf:
+[модернизм](*<-lang_ru;;*);
+	[modernism](*<-lang_en;;*);;
+
+genre_painting => nrel_main_idtf:
+[живопись](*<-lang_ru;;*);
+	[painting](*<-lang_en;;*);;
+
+genre_paysage => nrel_main_idtf:
+[пейзаж](*<-lang_ru;;*);
+	[paysage](*<-lang_en;;*);;
+
+genre_still_life => nrel_main_idtf:
+[натюрморт](*<-lang_ru;;*);
+	[still life](*<-lang_en;;*);;
+
+genre_portrait => nrel_main_idtf:
+[портрет](*<-lang_ru;;*);
+	[portrait](*<-lang_en;;*);;
+
+material_oil_paints => nrel_main_idtf:
+[маслянные краски](*<-lang_ru;;*);
+	[oil paints](*<-lang_en;;*);;
+
+image_interpretation => nrel_main_idtf:
+[интерпретация произведения](*<-lang_ru;;*);
+	[image interpretation](*<-lang_en;;*);;
+
+concept_museum => nrel_main_idtf:
+[музей](*<-lang_ru;;*);
+	[museum](*<-lang_en;;*);;
+
+nrel_director => nrel_main_idtf:
+[директор](*<-lang_ru;;*);
+	[director](*<-lang_en;;*);;
+
+man_Glenn_Lowry => nrel_main_idtf:
+[Глен Лоури](*<-lang_ru;;*);
+	[Glenn Lowry](*<-lang_en;;*);;
+
+nrel_date_of_founding => nrel_main_idtf:
+[дата основания](*<-lang_ru;;*);
+	[date of founding](*<-lang_en;;*);;
+
+nrel_date_of_opening => nrel_main_idtf:
+[дата открытия](*<-lang_ru;;*);
+	[date of opening](*<-lang_en;;*);;
+

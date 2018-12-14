@@ -1,2 +1,40 @@
-//сюда кидаем формализацию всех понятий
-
+/*Винсент Ван Гог - "Звёздная ночь"*/
+/* Author: Kseniya Perepechina, group 621701 */
+/* Date: 2018/12/14                          */
+//системный идентификатор
+sc_node_not_relation -> picture_the_starry_night;;
+//основные идентификаторы
+picture_the_starry_night => nrel_main_idtf:
+["Звёздная ночь"](*<-lang_ru;;*);
+	["The Starry Night"](*<-lang_en;;*);
+//ТМ связи
+<- concept_picture;
+//атрибуты
+=> nrel_style: style_modernism; style_postimpressionism;
+=> nrel_genre: genre_paysage;
+=> nrel_author: artist_Vincent_Van_Gogh;
+=> nrel_date_of_paining: ... 
+(*-> rrel_number_of_year: year_1889;;
+*);;
+=> nrel_location: museum_of_modern_art;
+=> nrel_material: material_oil_paints;
+//трактовка изображенного
+<- rrel_key_sc_element: ...
+(*
+<-image_interpretation;;
+=>nrel_main_idtf: [Утв.("Звёздная ночь")](* <-lang_ru;; *);;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example:
+[ Представляет вид из восточного окна спальни Ван Гога в Сен-Реми-де-Прованс на предрассветное небо и вымышленную деревню.](* <-lang_ru;; *);;
+*);;
+*);;
+//иллюстрация
+llustration -> ...
+	(*
+	-> rrel_key_sc_element: picture_the_starry_night;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://the_starry_night.jpg";;
+		*);;
+	*);;

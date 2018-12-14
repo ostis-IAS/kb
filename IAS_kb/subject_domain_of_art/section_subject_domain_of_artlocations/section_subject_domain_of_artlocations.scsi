@@ -1,2 +1,33 @@
-//сюда кидаем формализацию всех понятий
-
+/*Музей современного искусства в НЙ*/
+/* Author: Kseniya Perepechina, group 621701 */
+/* Date: 2018/12/14                          */
+//системный идентификатор
+sc_node_not_relation -> museum_of_modern_art_NY;;
+//основные идентификаторы
+museum_of_modern_art_NY => nrel_main_idtf:
+["Музей современного искусства в Нью-Йорке"](*<-lang_ru;;*);
+["Museum of Modern Art in New York"](*<-lang_en;;*);
+["MoMA"](*<-lang_en;;*);
+//ТМ связи
+<- concept_museum;
+//атрибуты
+=> nrel_director: man_Glenn_Lowry;
+=> nrel_date_of_founding: ... 
+(*-> rrel_number_of_year: year_1929;;
+*);;
+=> nrel_date_of_opening: ... 
+(*-> rrel_number_of_year: year_1929;;
+-> rrel_name_of_month: month_November;
+-> rrel_number_of_day: day_7;;
+*);;
+=> nrel_location: country_USA;
+*);
+//иллюстрация
+llustration -> ...
+	(*
+	-> rrel_key_sc_element: museum_of_modern_art_NY;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://MoMA.jpg";;
+		*);;
+	*);;

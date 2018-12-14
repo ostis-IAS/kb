@@ -1,0 +1,129 @@
+/*Рене Магритт*/
+/* Author: Kseniya Perepechina, group 621701 */
+/* Date: 2018/12/14                          */
+//системный идентификатор
+sc_node_not_relation -> artist_Rene_Magritte;;
+//основные идентификаторы
+artist_Rene_Magritte => nrel_main_idtf:
+[Рене Магритт](*<-lang_ru;;*);
+	[Rene Magritte](*<-lang_en;;*);
+//ТМ связи
+<- concept_artist;
+//атрибуты
+=> nrel_date_of_birth: ... 
+(*-> rrel_number_of_year: year_1898;
+-> rrel_name_of_month: month_November;
+-> rrel_number_of_day: day_21;;
+*);;
+=> nrel_place_of_birth: ...
+(*-> rrel_country_of_birth: country_Belgium;
+-> rrel_city_of_birth: city_Lessin;;
+*);
+=>nrel_date_of_death: ... 
+(*-> rrel_number_of_year: year_1967;
+-> rrel_name_of_month: month_August;
+-> rrel_number_of_day: day_15;;
+*);;
+=> nrel_place_of_death: ...
+(*-> rrel_country_of_death: country_Belgium;
+-> rrel_city_of_death: city_Brussels;;
+*);
+=> nrel_style: style_surrealism;
+=> nrel_genre: genre_painting;;
+//фото
+llustration -> ...
+	(*
+	-> rrel_key_sc_element: artist_Rene_Magritte;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://Rene_Magritte.jpg";;
+		*);;
+	*);;					  
+
+
+
+/*Винсент Ван Гог*/
+/* Author: Kseniya Perepechina, group 621701 */
+/* Date: 2018/12/14                          */
+//системный идентификатор
+sc_node_not_relation -> artist_Vincent_Van_Gogh;;
+//основные идентификаторы
+artist_Vincent_Van_Gogh => nrel_main_idtf:
+[Винсент Ван Гог](*<-lang_ru;;*);
+	[Vincent Van Gogh](*<-lang_en;;*);
+//ТМ связи
+<- concept_artist;
+//атрибуты
+=> nrel_date_of_birth: ... 
+(*-> rrel_number_of_year: year_1853;
+-> rrel_name_of_month: month_March;
+-> rrel_number_of_day: day_30;;
+*);;
+=> nrel_place_of_birth: ...
+(*-> rrel_country_of_birth: country_Netherlands;
+-> rrel_city_of_birth: city_Zundert;;
+*);
+=>nrel_date_of_death: ... 
+(*-> rrel_number_of_year: year_1890;
+-> rrel_name_of_month: month_July;
+-> rrel_number_of_day: day_29;;
+*);;
+=> nrel_place_of_death: ...
+(*-> rrel_country_of_death: country_France;;
+*);
+=> nrel_style: style_postimpressionism;
+/*так логичнее*/
+=> nrel_genre: genre_paysage; genre_still_life; genre_portrait;;
+//=> nrel_genre: concept_landscape; concept_still_life; concept_portrait;;
+/*так в базе*/
+llustration -> ...
+	(* 
+	-> rrel_key_sc_element: artist_Vincent_Van_Gogh;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://Vincent_Van_Gogh.jpg";;
+		*);;
+	*);;		
+
+
+
+/*Сальвадор Дали*/
+/* Author: Kseniya Perepechina, group 621701 */
+/* Date: 2018/12/14                          */		
+sc_node_not_relation -> artist_Salvador_Dali;;
+//основные идентификаторы
+artist_Salvador_Dali => nrel_main_idtf:
+[Сальвадор Дали](*<-lang_ru;;*);
+	[Salvador Dali](*<-lang_en;;*);
+//ТМ связи
+<- concept_artist;
+//атрибуты
+=> nrel_date_of_birth: ... 
+(*-> rrel_number_of_year: year_1904;
+-> rrel_name_of_month: month_May;
+-> rrel_number_of_day: day_11;;
+*);;
+=> nrel_place_of_birth: ...
+(*-> rrel_country_of_birth: country_Spain;
+-> rrel_city_of_birth: city_Figueras;;
+*);
+=>nrel_date_of_death: ... 
+(*-> rrel_number_of_year: year_1989;
+-> rrel_name_of_month: month_January;
+-> rrel_number_of_day: day_23;;
+*);;
+=> nrel_place_of_death: ...
+(*-> rrel_country_of_death: country_Spain;
+-> rrel_city_of_death: city_Figueras;;
+*);
+=> nrel_style: style_surrealism; style_cubism;
+=> nrel_genre: genre_painting;;
+//фото
+llustration -> ...
+	(*
+	-> rrel_key_sc_element: artist_Salvador_Dali;;
+ 	<= nrel_sc_text_translation: ...
+		(*
+		-> "file://Salvador_Dali.jpg";;
+		*);;
+	*);;					  	  
